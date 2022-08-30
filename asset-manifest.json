@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/im250db/static/css/main.4185a75c.css",
+    "main.js": "/im250db/static/js/main.554ae5ee.js",
+    "static/media/IRANSansX-Medium.woff": "/im250db/static/media/IRANSansX-Medium.8e098ba93873ea906446.woff",
+    "static/media/logo.png": "/im250db/static/media/logo.fe3e9513d02659d08fd3.png",
+    "index.html": "/im250db/index.html",
+    "main.4185a75c.css.map": "/im250db/static/css/main.4185a75c.css.map",
+    "main.554ae5ee.js.map": "/im250db/static/js/main.554ae5ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4185a75c.css",
+    "static/js/main.554ae5ee.js"
+  ]
+}
