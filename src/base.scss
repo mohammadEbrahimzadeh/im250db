@@ -1,0 +1,82 @@
+@font-face {
+  font-family: IranSans;
+  src: url(/src/Fonts/IranSansX/Webfonts/fonts/woff/IRANSansX-Medium.woff);
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: IranSans;
+}
+h1 {
+  font-size: var(--fontXl);
+}
+h2 {
+  font-size: var(--fontMdBold);
+}
+h3 {
+  font-size: var(--fontMd);
+}
+p {
+  font-size: var(--fontSm);
+}
+li {
+  font-size: var(--fontSm);
+}
+a {
+  text-decoration: none;
+  color: white;
+  &:hover {
+    color: goldenrod;
+  }
+}
+html,
+body {
+  position: relative;
+}
+
+body {
+  min-width: 300px;
+  background-repeat: no-repeat;
+  color: white;
+  background-color: rgb(22, 22, 22);
+}
+button {
+  font-size: var(--fontSm);
+  background-color: rgba(100, 109, 106, 0);
+  color: gold;
+  transition: 0.3s;
+  width: 12%;
+  border-radius: 8px;
+  border: 1px solid goldenrod;
+  padding: 1vw;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.068);
+
+    box-shadow: rgb(255, 239, 12) 0px 1vw 1vw -15 px;
+  }
+}
+.mainDivCardPagtion {
+  background-color: rgb(44, 44, 44);
+}
+@media only screen and (max-width: 576px) {
+  :root {
+    --fontSm: 3.5vw;
+    --fontMd: 3.75vw;
+    --fontMdBold: 4.25vw;
+    --fontXl: 7vw;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  :root {
+    --fontSm: 1.5vw;
+    --fontMd: 2vw;
+    --fontMdBold: 2.5vw;
+    --fontXl: 5vw;
+  }
+}
+@import "Components/GolobalComponents/NavBar/_NavBar";
+@import "Components/GolobalComponents/Header/_Header";
+@import "Components/GolobalComponents/SectionsGenres/_SectionsGenres";
+@import "Components/GolobalComponents/SideBar/_SideBar";
+@import "Pages/AboutFilm/_AboutFilm";

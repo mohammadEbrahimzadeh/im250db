@@ -1,0 +1,52 @@
+.NavBar {
+  background-color: rgba(0, 0, 0, 0.425);
+  transition: 1s;
+  top: 0;
+  a {
+    padding: 1vw;
+    color: rgba(255, 255, 255, 0.651);
+    &:hover {
+      color: white;
+    }
+  }
+  .HumbergerBtn {
+    position: fixed;
+    z-index: 1;
+    right: 3%;
+    top: 3%;
+    margin: 2vw;
+    display: flex;
+    justify-content: flex-end;
+    button {
+      position: absolute;
+      right: 0;
+      width: 35px;
+      text-align: center;
+      font-size: var(--fontMdBold);
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .NavBar {
+    z-index: 1112;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: -100%;
+    background-color: black;
+
+    li {
+      text-align: center;
+    }
+  }
+}
+.Close {
+  z-index: 112;
+  left: -100%;
+}
+.Open {
+  z-index: 112;
+
+  left: 0;
+}

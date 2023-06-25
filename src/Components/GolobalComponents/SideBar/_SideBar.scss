@@ -1,0 +1,24 @@
+.SideBar {
+  .CardSideBar {
+    .overlaySidebar {
+      width: 100%;
+      top: 75%;
+      background-color: rgba(0, 0, 0, 0.548);
+      display: flex;
+      opacity: 0;
+      transition: 0.3s;
+      justify-content: center;
+    }
+    &:hover {
+      .overlaySidebar {
+        opacity: 1;
+      }
+    }
+  }
+  a {
+    color: white;
+    &:hover {
+      color: goldenrod;
+    }
+  }
+}
